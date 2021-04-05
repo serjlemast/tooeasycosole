@@ -3,8 +3,8 @@
     <div class="flex top-information">
       <h1>Письменные столы</h1>
       <my-input v-model="searchText" />
-      {{ searchText }}
-      <button>
+      <!-- {{ searchText }} -->
+      <button @click="addToConsole(searchText)">
         Найти
       </button>
     </div>
