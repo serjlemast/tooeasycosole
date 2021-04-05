@@ -61,6 +61,9 @@ export default {
   methods: {
     addToBasket(index) {
       console.log(index)
+    },
+    addToConsole(something){
+      console.log('Dowloading files:' + something)
     }
   }
 }
